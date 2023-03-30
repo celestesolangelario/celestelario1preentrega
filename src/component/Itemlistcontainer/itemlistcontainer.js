@@ -1,6 +1,6 @@
 const ItemListContainer =({greeting})=>{
     return (
-        <div>
+        <div class="mx-auto p-2 width:200px" >
             <h1>{greeting}</h1>
         </div>
     )

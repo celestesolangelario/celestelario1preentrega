@@ -1,5 +1,5 @@
 const Button = (props) => {
     console.log(props)
-    return <button onClick={props.callback} style={{backgroundColor:'black', color:'white'}}>¨{props.label}</button>
+    return <button class="btn btn-light" onClick={props.callback}>{props.label}</button>
 }
 export default Button
